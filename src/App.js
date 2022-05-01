@@ -7,8 +7,8 @@ robotImg.src = RobotImg;
 function App() {
     return (
         <>
+            <h1>js에서 import를 통한 image 사용</h1>
             <img src={RobotImg}/>
-            <h1>hello</h1>
         </>
     );
 };
